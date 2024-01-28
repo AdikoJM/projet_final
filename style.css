@@ -1,0 +1,148 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "roboto";
+}
+
+    /* MENU DE NAVIGUATION */
+
+.menu{
+    background: midnightblue;
+    width: 100%;
+    padding: 10px 5px;
+    height: 50px;
+}
+.mleft{
+    float: left;
+}
+.mleft input{
+    margin-top: 5px;
+    border-radius: 8px;
+    border: 2px solid midnightblue;
+    width: 120px;
+    text-align: center;
+}
+button:hover{
+    background: green;
+    cursor: pointer;
+}
+.mright{
+    float: right;
+}
+.mright ul li{
+    float: left;
+    list-style-type: none;
+    padding: 5px 10px;
+}
+.mright ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.mright ul li a:hover{
+    color: violet;
+}
+
+    /* PIED DE PAGE */
+
+footer{
+    background: gray;
+    height: 145px;
+    padding: 30px;
+    width: 100%;
+}
+footer h2{
+    text-align: center;
+    font-weight: bold;
+    color: midnightblue;
+}
+footer marquee{
+    color: white;
+}
+
+    /* MENU PLAT */
+
+    
+section .plat{
+    display: flex;
+    overflow: auto;
+}
+.je:hover{
+    transform: scale(1.5);
+    transition: 500ms;
+}
+.tu:hover{
+    transform: scale(1.5);
+    transition: 500ms;
+}
+.il:hover{
+    transform: scale(1.5);
+    transition: 500ms;
+}
+.elle:hover{
+    transform: scale(1.5);
+    transition: 500ms;
+}
+.nous:hover{
+    transform: scale(1.5);
+    transition: 500ms;
+}
+.vous:hover{
+    transform: scale(1.5);
+    transition: 500ms;
+}
+.ils:hover{
+    transform: scale(1.5);
+    transition: 500ms;
+}
+.elles:hover{
+    transform: scale(1.5);
+    transition: 500ms;
+}
+
+.sect2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: darkslateblue;
+}
+.cont1{
+    border: 1px solid midnightblue;
+    border-radius: 20px;
+    padding: 30px;
+    background: violet;
+}
+.cont1 h2{
+    text-align: center;
+    background: white;
+    border-radius: 10px;
+    color: violet;
+}
+.cont1 small{
+    color: midnightblue;
+    font-weight: bold;
+}
+.cont2{
+    border: 1px solid midnightblue;
+    border-radius: 20px;
+    padding: 30px;
+    background: violet;
+}
+.cont2 h2{
+    text-align: center;
+    background: white;
+    border-radius: 10px;
+    color: violet;
+}
+.cont2 small{
+    color: midnightblue;
+    font-weight: bold;
+}
+.sect2 select optgroup{
+    background: violet;
+    color: white;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
